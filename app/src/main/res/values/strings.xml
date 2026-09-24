@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Identity -->
+    <string name="app_name">SmartAlarm</string>
+    <string name="app_tagline">Your Time. Your Reminder. Your Ibadat.</string>
+
+    <!-- Fallback client & database IDs for Firebase / Credential Manager -->
+    <string name="default_web_client_id" translatable="false">YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER.apps.googleusercontent.com</string>
+    <string name="firestore_database_id" translatable="false">(default)</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_alarms">Alarms</string>
+    <string name="nav_ibadat">Ibadat</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_next_alarm">Next Alarm</string>
+    <string name="home_no_upcoming_alarms">No upcoming alarms</string>
+    <string name="home_set_alarm_now">Set a new alarm to stay on schedule</string>
+    <string name="home_todays_prayer_times">Today\'s Prayer Times</string>
+    <string name="home_quick_relative_alarm">Quick Reminder</string>
+    <string name="home_voice_assistant">Voice / Smart Reminder</string>
+    <string name="home_type_or_speak">Type: "tomorrow 8 PM dentist" or tap mic</string>
+
+    <!-- Prayer Names -->
+    <string name="prayer_fajr">Fajr</string>
+    <string name="prayer_sunrise">Sunrise</string>
+    <string name="prayer_dhuhr">Dhuhr</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Maghrib</string>
+    <string name="prayer_isha">Isha</string>
+    <string name="prayer_tahajjud">Tahajjud</string>
+    <string name="prayer_sehri">Sehri Ends</string>
+    <string name="prayer_iftar">Iftar</string>
+
+    <!-- Alarms Screen -->
+    <string name="alarms_title">My Alarms</string>
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_today">Today</string>
+    <string name="tab_past">Past</string>
+    <string name="tab_disabled">Disabled</string>
+    <string name="search_alarms_hint">Search title, notes, category...</string>
+    <string name="no_alarms_found">No alarms found</string>
+
+    <!-- Alarm Actions -->
+    <string name="action_add_reminder">Add Reminder</string>
+    <string name="action_create">Create</string>
+    <string name="action_save">Save Changes</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_snooze">Snooze</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+
+    <!-- Alarm Form -->
+    <string name="create_reminder_title">Create Reminder</string>
+    <string name="edit_reminder_title">Edit Reminder</string>
+    <string name="field_title">Title / Label</string>
+    <string name="field_title_placeholder">e.g. Ali\'s Wedding, Dentist Appointment</string>
+    <string name="field_description">Notes / Description (Optional)</string>
+    <string name="field_description_placeholder">e.g. Bring gifts, passport, water</string>
+    <string name="field_category">Category</string>
+    <string name="field_date">Date</string>
+    <string name="field_time">Time</string>
+    <string name="field_repeat">Repeat</string>
+    <string name="field_sound">Alarm Sound</string>
+    <string name="field_vibration">Vibrate on alarm</string>
+    <string name="field_vibration_pattern">Vibration Pattern</string>
+
+    <!-- Categories -->
+    <string name="category_personal">Personal</string>
+    <string name="category_work">Work</string>
+    <string name="category_ibadat">Ibadat</string>
+    <string name="category_event">Event</string>
+    <string name="category_health">Health</string>
+    <string name="category_study">Study</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_custom">Custom</string>
+
+    <!-- Repeat Options -->
+    <string name="repeat_none">None (Once)</string>
+    <string name="repeat_daily">Every day</string>
+    <string name="repeat_weekdays">Every weekday (Mon–Fri)</string>
+    <string name="repeat_weekly">Every week</string>
+    <string name="repeat_biweekly">Every 2 weeks</string>
+    <string name="repeat_monthly">Every month</string>
+    <string name="repeat_yearly">Every year</string>
+    <string name="repeat_interval">Every X days</string>
+    <string name="repeat_custom">Custom days</string>
+
+    <!-- Relative Alarms -->
+    <string name="quick_5_min">5 min</string>
+    <string name="quick_10_min">10 min</string>
+    <string name="quick_30_min">30 min</string>
+    <string name="quick_1_hour">1 hour</string>
+    <string name="quick_2_hours">2 hours</string>
+    <string name="quick_tomorrow">Tomorrow</string>
+    <string name="quick_3_days">3 days</string>
+    <string name="quick_1_week">1 week</string>
+    <string name="quick_1_month">1 month</string>
+    <string name="quick_1_year">1 year</string>
+
+    <!-- Sound & Vibration -->
+    <string name="sound_default_alarm">Default Alarm</string>
+    <string name="sound_default_notification">Notification Chime</string>
+    <string name="sound_adhan">Adhan Melody</string>
+    <string name="sound_bell">Temple / Sacred Bell</string>
+    <string name="sound_soft">Gentle Sunrise Breeze</string>
+    <string name="vib_short">Short Pulse</string>
+    <string name="vib_normal">Standard Rhythm</string>
+    <string name="vib_strong">Strong Awakening</string>
+
+    <!-- Snooze Options -->
+    <string name="snooze_5m">Snooze 5 min</string>
+    <string name="snooze_10m">Snooze 10 min</string>
+    <string name="snooze_15m">Snooze 15 min</string>
+    <string name="snooze_30m">Snooze 30 min</string>
+
+    <!-- Ibadat & Islam Modules -->
+    <string name="ibadat_title">Ibadat &amp; Prayers</string>
+    <string name="section_islamic_prayers">Islamic Prayer Times</string>
+    <string name="section_ramadan">Ramadan (Sehri &amp; Iftar)</string>
+    <string name="section_tahajjud">Tahajjud (Last Third of Night)</string>
+    <string name="section_jummah">Jummah (Friday Prayer)</string>
+    <string name="section_other_religions">Spiritual Traditions</string>
+    <string name="section_custom_practice">Custom Practice</string>
+    <string name="tahajjud_explanation">Tahajjud is calculated as the last 1/3 of the night between Maghrib and Fajr. Approximate calculated time for spiritual reminder.</string>
+    <string name="ramadan_calendar_title">Ramadan Fasting Times</string>
+    <string name="btn_set_prayer_alarm">Set Prayer Reminder</string>
+    <string name="location_label">Location</string>
+    <string name="location_auto_gps">Detect via GPS</string>
+    <string name="location_manual">Select City</string>
+
+    <!-- Spiritual Traditions -->
+    <string name="tradition_christianity">Christianity</string>
+    <string name="tradition_hinduism">Hinduism</string>
+    <string name="tradition_sikhism">Sikhism</string>
+    <string name="tradition_buddhism">Buddhism</string>
+    <string name="tradition_judaism">Judaism</string>
+
+    <!-- Calendar Screen -->
+    <string name="calendar_title">Reminder Calendar</string>
+    <string name="calendar_selected_date_reminders">Reminders for selected date</string>
+    <string name="calendar_no_reminders">No reminders scheduled for this date</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="settings_language">Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_urdu">اردو (Urdu)</string>
+    <string name="lang_arabic">العربية (Arabic)</string>
+    <string name="settings_notifications">Notifications &amp; Permissions</string>
+    <string name="settings_prayer_calc">Prayer Calculation Settings</string>
+    <string name="settings_firebase_sync">Cloud Backup &amp; Sync</string>
+    <string name="settings_export_import">JSON Backup (Import / Export)</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_about">About SmartAlarm</string>
+
+    <!-- Account / Sync -->
+    <string name="account_guest_title">Guest Mode (Offline-First)</string>
+    <string name="account_guest_subtitle">All alarms are safely stored on this device. Sign in to back up to cloud.</string>
+    <string name="account_sign_in_google">Sign in with Google</string>
+    <string name="account_sign_out">Sign Out</string>
+    <string name="account_sync_now">Sync to Cloud Now</string>
+    <string name="account_delete">Delete Cloud Account Data</string>
+
+    <!-- Voice / Natural Language Dialog -->
+    <string name="smart_nlp_dialog_title">Understood Reminder</string>
+    <string name="voice_listening">Listening… Speak your reminder</string>
+    <string name="voice_tap_to_speak">Tap microphone to speak</string>
+    <string name="nlp_example_prompts">Examples:\n• "2 weeks later meeting"\n• "tomorrow 8 PM dentist"\n• "in 45 minutes call doctor"</string>
+
+    <!-- Developer & Creator Info -->
+    <string name="about_developer">About Developer</string>
+    <string name="developer_name">Adnan Maqbool Qureshi</string>
+    <string name="developer_title">Developer &amp; Creator</string>
+    <string name="developer_whatsapp">+923109340486</string>
+    <string name="developer_whatsapp_label">WhatsApp: +923109340486</string>
+    <string name="developer_chat_on_whatsapp">WhatsApp Chat</string>
+    <string name="developer_chat_whatsapp_short">WhatsApp</string>
+    <string name="developer_connect_whatsapp">Chat with Adnan on WhatsApp</string>
+    <string name="developer_call_number">Call</string>
+    <string name="developer_copy_number">Copy</string>
+    <string name="developer_contact_card_title">About Developer</string>
+    <string name="developer_tagline">Developed with care by Adnan Maqbool Qureshi</string>
+</resources>

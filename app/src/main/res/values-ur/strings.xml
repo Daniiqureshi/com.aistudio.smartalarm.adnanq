@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Identity -->
+    <string name="app_name">SmartAlarm</string>
+    <string name="app_tagline">آپ کا وقت۔ آپ کی یاد دہانی۔ آپ کی عبادت۔</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ہوم</string>
+    <string name="nav_alarms">الارمز</string>
+    <string name="nav_ibadat">عبادات</string>
+    <string name="nav_calendar">کیلنڈر</string>
+    <string name="nav_settings">ترتیبات</string>
+
+    <!-- Home Screen -->
+    <string name="home_next_alarm">اگلا الارم</string>
+    <string name="home_no_upcoming_alarms">کوئی آنے والا الارم نہیں ہے</string>
+    <string name="home_set_alarm_now">وقت کی پابندی کے لیے نیا الارم لگائیں</string>
+    <string name="home_todays_prayer_times">آج کے اوقات نماز</string>
+    <string name="home_quick_relative_alarm">فوری یاد دہانی</string>
+    <string name="home_voice_assistant">صوتی یاد دہانی</string>
+    <string name="home_type_or_speak">لکھیں: "کل شام 8 بجے ملاقات" یا مائیک دبائیں</string>
+
+    <!-- Prayer Names -->
+    <string name="prayer_fajr">فجر</string>
+    <string name="prayer_sunrise">طلوع آفتاب</string>
+    <string name="prayer_dhuhr">ظہر</string>
+    <string name="prayer_asr">عصر</string>
+    <string name="prayer_maghrib">مغرب</string>
+    <string name="prayer_isha">عشاء</string>
+    <string name="prayer_tahajjud">تہجد</string>
+    <string name="prayer_sehri">اختتام سحری</string>
+    <string name="prayer_iftar">افطار</string>
+
+    <!-- Alarms Screen -->
+    <string name="alarms_title">میرے الارمز</string>
+    <string name="tab_upcoming">آنے والے</string>
+    <string name="tab_today">آج</string>
+    <string name="tab_past">ماضی</string>
+    <string name="tab_disabled">غیر فعال</string>
+    <string name="search_alarms_hint">تلاش کریں نام یا تفصیل...</string>
+    <string name="no_alarms_found">کوئی الارم نہیں ملا</string>
+
+    <!-- Alarm Actions -->
+    <string name="action_add_reminder">یاد دہانی شامل کریں</string>
+    <string name="action_create">شامل کریں</string>
+    <string name="action_save">محفوظ کریں</string>
+    <string name="action_edit">ترمیم</string>
+    <string name="action_delete">حذف کریں</string>
+    <string name="action_duplicate">نقل بنائیں</string>
+    <string name="action_dismiss">بند کریں</string>
+    <string name="action_snooze">سنوز</string>
+    <string name="action_cancel">منسوخ</string>
+    <string name="action_confirm">تصدیق کریں</string>
+
+    <!-- Alarm Form -->
+    <string name="create_reminder_title">نیا الارم بنائیں</string>
+    <string name="edit_reminder_title">الارم میں ترمیم</string>
+    <string name="field_title">عنوان</string>
+    <string name="field_description">تفصیل (اختیاری)</string>
+    <string name="field_category">قسم</string>
+    <string name="field_date">تاریخ</string>
+    <string name="field_time">وقت</string>
+    <string name="field_repeat">تکرار</string>
+    <string name="field_sound">آواز</string>
+    <string name="field_vibration">تھررتھراہٹ</string>
+
+    <!-- Categories -->
+    <string name="category_personal">ذاتی</string>
+    <string name="category_work">کام</string>
+    <string name="category_ibadat">عبادت</string>
+    <string name="category_event">تقریب</string>
+    <string name="category_health">صحت</string>
+    <string name="category_study">تعلیم</string>
+    <string name="category_travel">سفر</string>
+    <string name="category_custom">دیگر</string>
+
+    <!-- Repeat Options -->
+    <string name="repeat_none">ایک بار</string>
+    <string name="repeat_daily">روزانہ</string>
+    <string name="repeat_weekdays">کام کے دن (پیر تا جمعہ)</string>
+    <string name="repeat_weekly">ہفتہ وار</string>
+    <string name="repeat_biweekly">ہر دو ہفتے</string>
+    <string name="repeat_monthly">ماہانہ</string>
+    <string name="repeat_yearly">سالانہ</string>
+
+    <!-- Developer & Creator Info -->
+    <string name="about_developer">ڈویلپر کے بارے میں (About Developer)</string>
+    <string name="developer_name">عدنان مقبول قریشی (Adnan Maqbool Qureshi)</string>
+    <string name="developer_title">ایپ ڈویلپر اور تخلیق کار</string>
+    <string name="developer_whatsapp">+923109340486</string>
+    <string name="developer_whatsapp_label">واٹس ایپ: +923109340486</string>
+    <string name="developer_chat_on_whatsapp">واٹس ایپ پر چیٹ کریں</string>
+    <string name="developer_chat_whatsapp_short">واٹس ایپ</string>
+    <string name="developer_connect_whatsapp">عدنان سے واٹس ایپ پر رابطہ کریں</string>
+    <string name="developer_call_number">کال کریں</string>
+    <string name="developer_copy_number">کاپی کریں</string>
+    <string name="developer_contact_card_title">ڈویلپر کے بارے میں (About Developer)</string>
+    <string name="developer_tagline">عدنان مقبول قریشی کی کاوش</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "User": {
+      "path": "users/{userId}",
+      "fields": {
+        "uid": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "photoUrl": { "type": "string", "optional": true },
+        "createdAt": { "type": "timestamp" },
+        "updatedAt": { "type": "timestamp" },
+        "settings": { "type": "map", "optional": true }
+      }
+    },
+    "Alarm": {
+      "path": "users/{userId}/alarms/{alarmId}",
+      "fields": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string", "optional": true },
+        "category": { "type": "string" },
+        "triggerTime": { "type": "number" },
+        "timezone": { "type": "string" },
+        "repeatType": { "type": "string" },
+        "repeatInterval": { "type": "number", "optional": true },
+        "repeatDays": { "type": "string", "optional": true },
+        "enabled": { "type": "boolean" },
+        "sound": { "type": "string", "optional": true },
+        "vibration": { "type": "boolean", "optional": true },
+        "createdAt": { "type": "timestamp" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    },
+    "PrayerSettings": {
+      "path": "users/{userId}/prayerSettings/{settingsId}",
+      "fields": {
+        "location": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "calculationMethod": { "type": "string" },
+        "madhab": { "type": "string" },
+        "notificationsEnabled": { "type": "boolean" },
+        "updatedAt": { "type": "timestamp" }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "smartalarm-universal-alarm-ibadat",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Build successful'"
+  }
+}

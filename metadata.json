@@ -1,0 +1,6 @@
+{
+  "name": "SmartAlarm",
+  "description": "Universal Alarm & Ibadat Reminder with Islamic prayer times, recurring & relative alarms, and calendar integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

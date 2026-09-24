@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.8" android:scaleY="0.8" android:translateX="10.8" android:translateY="10.8">
+        <!-- Clock ring in deep green -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:pathData="M54,20 A34,34 0 1,1 20,54 A34,34 0 0,1 54,20" />
+        <!-- Alarm bell ears -->
+        <path
+            android:fillColor="#D4AF37"
+            android:pathData="M28,18 L20,26 A4,4 0 0,1 14,20 L22,12 A4,4 0 0,1 28,18 Z" />
+        <path
+            android:fillColor="#D4AF37"
+            android:pathData="M80,18 L88,26 A4,4 0 0,0 94,20 L86,12 A4,4 0 0,0 80,18 Z" />
+        <!-- Golden spiritual crescent -->
+        <path
+            android:fillColor="#D4AF37"
+            android:pathData="M58,28 C64,28 72,33 74,40 C67,39 58,42 56,50 C55,47 54,44 54,41 C54,34 56,28 58,28 Z" />
+        <!-- Clock hands -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4.5"
+            android:strokeLineCap="round"
+            android:pathData="M54,54 L54,34" />
+        <path
+            android:strokeColor="#D4AF37"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M54,54 L68,60" />
+        <path
+            android:fillColor="#D4AF37"
+            android:pathData="M54,54m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+    </group>
+</vector>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Identity -->
+    <string name="app_name">SmartAlarm</string>
+    <string name="app_tagline">وقتك. تذكيرك. عبادتك.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_alarms">المنبهات</string>
+    <string name="nav_ibadat">العبادات</string>
+    <string name="nav_calendar">التقويم</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Home Screen -->
+    <string name="home_next_alarm">المنبه القادم</string>
+    <string name="home_no_upcoming_alarms">لا توجد منبهات قادمة</string>
+    <string name="home_set_alarm_now">اضبط منبهاً جديداً للبقاء في الموعد</string>
+    <string name="home_todays_prayer_times">مواقيت الصلاة اليوم</string>
+    <string name="home_quick_relative_alarm">تذكير سريع</string>
+    <string name="home_voice_assistant">تذكير ذكي وصوتي</string>
+    <string name="home_type_or_speak">اكتب: "غداً 8 مساءً موعد الطبيب" أو اضغط الميكروفون</string>
+
+    <!-- Prayer Names -->
+    <string name="prayer_fajr">الفجر</string>
+    <string name="prayer_sunrise">الشروق</string>
+    <string name="prayer_dhuhr">الظهر</string>
+    <string name="prayer_asr">العصر</string>
+    <string name="prayer_maghrib">المغرب</string>
+    <string name="prayer_isha">العشاء</string>
+    <string name="prayer_tahajjud">التهجد</string>
+    <string name="prayer_sehri">نهاية السحور</string>
+    <string name="prayer_iftar">الإفطار</string>
+
+    <!-- Alarms Screen -->
+    <string name="alarms_title">المنبهات</string>
+    <string name="tab_upcoming">القادمة</string>
+    <string name="tab_today">اليوم</string>
+    <string name="tab_past">السابقة</string>
+    <string name="tab_disabled">المعطلة</string>
+    <string name="search_alarms_hint">بحث في العنوان أو الوصف...</string>
+    <string name="no_alarms_found">لم يتم العثور على منبهات</string>
+
+    <!-- Alarm Actions -->
+    <string name="action_add_reminder">إضافة تذكير</string>
+    <string name="action_create">إنشاء</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_duplicate">تكرار</string>
+    <string name="action_dismiss">إيقاف</string>
+    <string name="action_snooze">غفوة</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_confirm">تأكيد</string>
+
+    <!-- Alarm Form -->
+    <string name="create_reminder_title">إنشاء تذكير جديد</string>
+    <string name="edit_reminder_title">تعديل التذكير</string>
+    <string name="field_title">العنوان</string>
+    <string name="field_description">الوصف (اختياري)</string>
+    <string name="field_category">الفئة</string>
+    <string name="field_date">التاريخ</string>
+    <string name="field_time">الوقت</string>
+    <string name="field_repeat">التكرار</string>
+    <string name="field_sound">نغمة التنبيه</string>
+    <string name="field_vibration">الاهتزاز</string>
+
+    <!-- Categories -->
+    <string name="category_personal">شخصي</string>
+    <string name="category_work">عمل</string>
+    <string name="category_ibadat">عبادة</string>
+    <string name="category_event">مناسبة</string>
+    <string name="category_health">صحة</string>
+    <string name="category_study">دراسة</string>
+    <string name="category_travel">سفر</string>
+    <string name="category_custom">مخصص</string>
+
+    <!-- Repeat Options -->
+    <string name="repeat_none">مرة واحدة</string>
+    <string name="repeat_daily">كل يوم</string>
+    <string name="repeat_weekdays">أيام العمل (الاثنين–الجمعة)</string>
+    <string name="repeat_weekly">أسبوعياً</string>
+    <string name="repeat_biweekly">كل أسبوعين</string>
+    <string name="repeat_monthly">شهرياً</string>
+    <string name="repeat_yearly">سنوياً</string>
+
+    <!-- Developer & Creator Info -->
+    <string name="about_developer">عن المطور (About Developer)</string>
+    <string name="developer_name">عدنان مقبول قريشي (Adnan Maqbool Qureshi)</string>
+    <string name="developer_title">مطور ومبتكر التطبيق</string>
+    <string name="developer_whatsapp">+923109340486</string>
+    <string name="developer_whatsapp_label">واتساب: +923109340486</string>
+    <string name="developer_chat_on_whatsapp">محادثة عبر واتساب</string>
+    <string name="developer_chat_whatsapp_short">واتساب</string>
+    <string name="developer_connect_whatsapp">تواصل مع عدنان عبر واتساب</string>
+    <string name="developer_call_number">اتصال</string>
+    <string name="developer_copy_number">نسخ</string>
+    <string name="developer_contact_card_title">عن المطور (About Developer)</string>
+    <string name="developer_tagline">تم التطوير بعناية بواسطة عدنان مقبول قريشي</string>
+</resources>

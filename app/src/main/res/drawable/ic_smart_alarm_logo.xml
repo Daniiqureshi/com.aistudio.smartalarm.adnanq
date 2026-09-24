@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Outer glow / soft halo -->
+    <path
+        android:fillColor="#1A0F6E4E"
+        android:pathData="M48,8A40,40 0 1,0 88,48A40,40 0 0,0 48,8Z" />
+    <!-- Clock ring in deep green -->
+    <path
+        android:strokeColor="#0F6E4E"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M48,16 A32,32 0 1,1 16,48 A32,32 0 0,1 48,16" />
+    <!-- Alarm bell ears -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M24,14 L16,22 A4,4 0 0,1 10,16 L18,8 A4,4 0 0,1 24,14 Z" />
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M72,14 L80,22 A4,4 0 0,0 86,16 L78,8 A4,4 0 0,0 72,14 Z" />
+    <!-- Golden spiritual crescent integrated inside upper right of dial -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M52,24 C57,24 64,28 66,35 C60,34 52,37 50,44 C49,42 48,39 48,36 C48,29 50,24 52,24 Z" />
+    <!-- Golden small star / light ray -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M68,26 L69.5,29.5 L73,30 L70.5,32.5 L71,36 L68,34 L65,36 L65.5,32.5 L63,30 L66.5,29.5 Z" />
+    <!-- Clock hands (center pin + hour hand + minute hand) -->
+    <path
+        android:strokeColor="#0F6E4E"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,48 L48,30" />
+    <path
+        android:strokeColor="#1B7A4D"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M48,48 L60,54" />
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M48,48m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+    <!-- Base feet -->
+    <path
+        android:strokeColor="#0F6E4E"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M26,76 L20,84" />
+    <path
+        android:strokeColor="#0F6E4E"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M70,76 L76,84" />
+</vector>
